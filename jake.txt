@@ -1,0 +1,9 @@
+Hello Everyone
+
+az storage blob upload \
+    --account-name stodsba6190epsilon \
+    --container-name data \
+    --name jake.txt \
+    --file /Users/jakebrulato/Documents/GitHub/DSBA6160/jake.txt \
+    --auth-mode login
+
