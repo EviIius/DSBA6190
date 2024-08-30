@@ -7,3 +7,9 @@ az storage blob upload \
     --file /Users/jakebrulato/Documents/GitHub/DSBA6160/jake.txt \
     --auth-mode login
 
+    az storage blob list \
+    --account-name stodsba6190epsilon \
+    --container-name data \
+    --output table \
+    --auth-mode login
+
