@@ -1,4 +1,5 @@
 # DSBA6190
+### - Introduction to the basic principles of cloud computing for data intensive applications. Covers a broad range of technologies and solutions from data platform architecture to data analytics. Focuses on the scalable deployment of cloud resources and the integration between individual services. Topics covered may include cloud management, building data architectures with data lakes, containerized applications, distributed computing using cluster technologies such as Apache Spark or Kubernetes, machine learning and deep learning model training and deployment using scalable/GPU-based infrastructure
 
 ## Syllabus
 [6190](HK/DSBA-6190_Syllabus_Fall2024.pdf)
