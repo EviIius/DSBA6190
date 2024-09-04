@@ -1,7 +1,10 @@
 # DSBA6190
 
 ## Syllabus
-[6190](DSBA-6190_Syllabus_Fall2024.pdf)
+[6190](HK/DSBA-6190_Syllabus_Fall2024.pdf)
+
+## Schedule
+![alt text](/Users/jakebrulato/Documents/GitHub/DSBA6190/HK/Schedule.png "Title")
 
 ## Services and Software
 Here are some services and software that we will use throughout the semester:
