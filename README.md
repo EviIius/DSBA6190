@@ -29,10 +29,10 @@ Docker and Kubernetes:
 Free stuff (not required for this class):
 - GitHub for Students: [Link](https://education.github.com/packLinks) to an external site.
 - Azure for Students: [Link](https://azure.microsoft.com/en-us/free/studentsLinks) to an external site.
-- Tableau for Students: [Link](https://www.tableau.com/academic/studentsLinks )to an external site.
+- Tableau for Students: [Link](https://www.tableau.com/academic/studentsLinks) to an external site.
 
 
-- O'Reilly Books:
+O'Reilly Books:
 - Learning Microsoft Azure: [Link](https://www.oreilly.com/library/view/learning-microsoft-azure/9781098113315/Links) to an external site.
 - Cloud Native Infrastructure with Azure:[Link](https://www.oreilly.com/library/view/cloud-native-infrastructure/9781492090953/Links) to an external site.
 - Data Science at the Command Line: [Link](https://www.oreilly.com/library/view/data-science-at/9781492087908/Links) to an external site.
