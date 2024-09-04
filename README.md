@@ -1,5 +1,7 @@
 # DSBA6190
 
+## Syllabus
+[6190](DSBA-6190_Syllabus_Fall2024.pdf)
 
 ## Services and Software
 Here are some services and software that we will use throughout the semester:
