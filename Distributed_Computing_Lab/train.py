@@ -12,12 +12,14 @@ import pandas as pd
 ## Add target variable to the DataFrame
 # diabetes_df['target'] = diabetes.target
 # diabetes_df.to_csv('diabetes.csv', index=False)
-diabetes = pd.read_csv('/mnt/datalake/instructor/diabetes.csv')
+# diabetes = pd.read_csv('/mnt/datalake/instructor/diabetes.csv')
+
+cars = pd.read_csv('https://raw.githubusercontent.com/EviIius/DSBA6190/main/Distributed_Computing_Lab/mtcars.csv')
 
 ## Split the data
 # X, y = diabetes.data, diabetes.target
-X = diabetes.drop('target', axis=1)
-y = diabetes['target']
+X = cars.drop('mpg', axis=1)
+y = cars['mpg']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 ## Train a regression model
