@@ -11,8 +11,8 @@ FROM python:3.12.6-slim
 RUN python -m pip install scikit-learn pandas
 
 ## Create a directory for the lab
-RUN mkdir /Distributed Computing Lab
-WORKDIR /Distributed Computing Lab
+RUN mkdir /Distributed_Computing_Lab
+WORKDIR /Distributed_Computing_Lab
 
 ## Copy the training files
-COPY ./train.py /lab/train.py
+COPY ./train.py /Distributed_Computing_LabDistributed_Computing_Lab/train.py
