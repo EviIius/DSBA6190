@@ -1,0 +1,3 @@
+docker tag jake-sklearn crdsba6190deveastus001.azurecr.io/jake-sklearn:latest
+
+docker push crdsba6190deveastus001.azurecr.io/jake-sklearn:latest

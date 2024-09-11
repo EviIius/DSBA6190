@@ -16,3 +16,5 @@ WORKDIR /Distributed_Computing_Lab
 
 ## Copy the training files
 COPY ./train.py /Distributed_Computing_LabDistributed_Computing_Lab/train.py
+
+# CMD ["python", "train.py"]
