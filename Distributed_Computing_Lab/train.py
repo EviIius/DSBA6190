@@ -5,16 +5,7 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 
 ## Load the data
-# diabetes = load_diabetes()
-## Convert the dataset to a DataFrame
-# diabetes_df = pd.DataFrame(data=diabetes.data,
-#                            columns=diabetes.feature_names)
-## Add target variable to the DataFrame
-# diabetes_df['target'] = diabetes.target
-# diabetes_df.to_csv('diabetes.csv', index=False)
-# diabetes = pd.read_csv('/mnt/datalake/instructor/diabetes.csv')
-
-cars = pd.read_csv('https://raw.githubusercontent.com/EviIius/DSBA6190/main/Distributed_Computing_Lab/mtcars.csv')
+cars = pd.read_csv('https://raw.githubusercontent.com/EviIius/DSBA6190/main/Distributed_Computing_Lab/mtcars.csv', sep=',')
 
 ## Split the data
 # X, y = diabetes.data, diabetes.target

@@ -11,10 +11,10 @@ FROM python:3.12.6-slim
 RUN python -m pip install scikit-learn pandas
 
 ## Create a directory for the lab
-RUN mkdir /Distributed_Computing_Lab
-WORKDIR /Distributed_Computing_Lab
+RUN mkdir /lab
+WORKDIR /lab
 
 ## Copy the training files
-COPY ./train.py /Distributed_Computing_LabDistributed_Computing_Lab/train.py
+COPY ./train.py /lab/train.py
 
 # CMD ["python", "train.py"]
