@@ -5,11 +5,28 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 
 ## Load the data
-cars = pd.read_csv('https://raw.githubusercontent.com/EviIius/DSBA6190/main/Distributed_Computing_Lab/mtcars.csv', sep=',')
+column_types = {
+    'model': 'str',
+    'mpg': 'float64',
+    'cyl': 'int64',
+    'disp': 'float64',
+    'hp': 'int64',
+    'drat': 'float64',
+    'wt': 'float64',
+    'qsec': 'float64',
+    'vs': 'int64',
+    'am': 'int64',
+    'gear': 'int64',
+    'carb': 'int64'
+}
+
+cars = pd.read_csv('/mnt/datalake/epsilon/mtcars.csv', sep=',', dtype=column_types)
+
 
 ## Split the data
 # X, y = diabetes.data, diabetes.target
-X = cars.drop('mpg', axis=1)
+columns_to_drop = ['model', 'mpg'] 
+X = cars.drop(columns_to_drop, axis=1)
 y = cars['mpg']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
@@ -26,4 +43,4 @@ print(f'Mean Squared Error: {mse}')
 
 # Save the model
 import joblib
-joblib.dump(model, '/mnt/datalake/instructor/diabetes_model.pkl')
+joblib.dump(model, '/mnt/datalake/epsilon/mtcars.pkl')
