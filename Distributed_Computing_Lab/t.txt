@@ -1,3 +1,10 @@
+docker build -t jake-sklearn .
+
 docker tag jake-sklearn crdsba6190deveastus001.azurecr.io/jake-sklearn:latest
 
 docker push crdsba6190deveastus001.azurecr.io/jake-sklearn:latest
+
+kubectl apply -f example.yml
+
+
+kubectl exec -it jake-sklearn-01 -- /bin/bash
